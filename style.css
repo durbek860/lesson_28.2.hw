@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 81.6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header a img{
+    width: 64px;
+    height: 32px;
+}
+
+header .links{
+    display: flex;
+    gap: 30px;
+}
+
+header .links .active{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: 2px solid #E1C762;
+    color: black;
+    padding-bottom: 5px;
+}
+
+header .links a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 5px;
+}
+
+header .links a:hover{
+    border-bottom: 2px solid #E1C762;
+}
+
+header .links .fa-bars {
+    font-size: 24px;
+    display: none;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./sectionbg.jpg);
+    background-size: cover;
+    padding: 100px 300px;
+}
+
+.section .about{
+    width: 599px;
+    height: 415px;
+    padding: 30px;
+    background-color: white;
+    position: relative;
+    z-index: 10;
+    box-shadow: -30px 30px 0 10px #ffca01;
+}
+
+.section .about h2{
+    font-size: 55px;
+    padding-top: 25px;
+}
+
+.section .about p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.section .about .link{
+    font-size: 16px;
+    padding-top: 24px;
+}
+
+.section .about .link a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.section .about button{
+    margin-top: 32px;
+    padding: 20px 50px;
+    background-color: white;
+    border: 2px solid #11111d;
+    font-weight: 500;
+    color: #11111d;
+    font-size: 16px;
+}
+
+.section .about button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.section_2{
+    width: 100%;
+    height: 477px;
+    background-color: #FFCA01;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section_2 h2{
+    font-size: 55px;
+    text-align: center;
+}
+
+.section_2 p{
+    font-size: 24px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.section_2 button{
+    padding: 20px 57px;
+    margin-top: 45px;
+    background-color: #000000;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+.section_2 button:hover{
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+}
+
+.our_services{
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 125px;
+    padding-bottom: 50px;
+}
+
+.our_services h2{
+    font-size: 55px;
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    padding-top: 105px;
+}
+
+.our_services .cards{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.our_services .cards .card_item{
+    width: 270px;
+    height: 372px;
+    background-color: white;
+    padding: 30px;
+}
+
+.our_services .cards .card_item img{
+    width: 75px;
+}
+
+.card_item h4{
+    font-size: 20px;
+    padding-top: 23px;
+}
+
+.card_item p{
+    padding-top: 17px;
+    padding-bottom: 16px;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.card_item a{
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid #FFCA01;
+}
+
+.card_item a:hover{
+    border-bottom: 1px solid black;
+}
+
+.site_misson{
+    width: 100%;
+    height: 762px;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site_misson .container{
+    width: 1140px;
+    height: 629px;
+    display: flex;
+}
+
+.site_misson .container .layout{
+    width: 570px;
+    height: 629px;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.site_misson .container .layout p{
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+}
+
+.site_misson .container .layout p a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.site_misson .container .layout h5{
+    font-family: "Titillium Web";
+    font-size: 20px;
+}
+
+.site_misson .container .layout .subs{
+    width: auto;
+    height: auto;
+    padding: 10px 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.site_misson .container .layout img{
+    width: 33px;
+}
+
+.site_misson .container .layout_img{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3854207/images/rt.jpg);
+}
+
+/* ================media=================== */
+
+@media screen and (max-width:1200px){
+
+    .site_misson{
+        height: 732.6px;
+    }
+
+    .site_misson .container{
+        width: 940px;
+        height: 612.6px;
+    }
+
+}
+
+@media screen and (max-width:1088px){
+    
+    .section{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .section .about{
+        width: 500px;
+        height: 350px;
+    }
+    
+    .section .about h2{
+        font-size: 32px;
+        
+    }
+    
+    .section .about p{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+}
+
+@media screen and (max-width:990px){
+
+    .site_misson{
+        height: 811px;
+    }
+
+    .site_misson .container{
+        width: 800px;
+        height: 691px;
+    }
+
+}
+
+@media screen and (max-width:825px){
+
+    .site_misson{
+        height: 1222.6px;
+    }
+
+    .site_misson .container{
+        width: 540px;
+        height: 1102.6px;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:608px){
+    
+    .section .about{
+        width: 80%;
+        margin-left: 30px;
+    }
+    
+    .section .about h2{
+        font-size: 24px;
+    }
+    
+    .section .about p{
+        font-size: 14px;
+    }
+    
+    .section .about .link{
+        font-size: 14px;
+    }
+    
+    .section .about button{
+        padding: 15px 25px;
+    }
+
+    .site_misson .container{
+        width: 340px;
+    }
+    
+}
+
+@media screen and (max-width:575px){
+    
+    .section_2 h2{
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (max-width:551px){
+
+    header{
+        justify-content: space-between;
+        padding: 0 5%;
+    }
+
+    header .links a{
+        display: none;
+    }
+    
+    header .links .fa-bars {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:382px){
+    .section .about{
+        box-shadow: -15px 15px 0 10px #ffca01;
+    }
+
+    .section .about button{
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width:320px){
+
+    .section_2 button{
+        padding: 15px 45px;
+    }
+
+}
