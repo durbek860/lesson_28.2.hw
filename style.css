@@ -211,14 +211,12 @@ header .links .fa-bars {
     height: 762px;
     background-color: #F2F2F2;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .site_misson .container{
     width: 1140px;
     height: 629px;
-    display: flex;
+    padding: 0px 5%;
 }
 
 .site_misson .container .layout{
@@ -337,6 +335,14 @@ header .links .fa-bars {
 
 }
 
+@media screen and (max-width:617px){
+
+    .site_misson > .container{
+        width: auto;
+    }
+
+}
+
 @media screen and (max-width:608px){
     
     .section .about{
@@ -358,10 +364,6 @@ header .links .fa-bars {
     
     .section .about button{
         padding: 15px 25px;
-    }
-
-    .site_misson .container{
-        width: 340px;
     }
     
 }
