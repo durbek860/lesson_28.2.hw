@@ -115,6 +115,7 @@ header .links .fa-bars {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 0px 50px;
 }
 
 .section_2 h2{
@@ -211,12 +212,14 @@ header .links .fa-bars {
     height: 762px;
     background-color: #F2F2F2;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .site_misson .container{
-    width: 1140px;
+    width: 980px;
     height: 629px;
-    padding: 0px 5%;
+    display: flex;
 }
 
 .site_misson .container .layout{
@@ -267,18 +270,54 @@ header .links .fa-bars {
     background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3854207/images/rt.jpg);
 }
 
+.acces_services{
+    width: 100%;
+    height: 606px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.444) ,rgba(0, 0, 0, 0.444)), url(./man.jpg);
+    padding: 100px 15%;
+    background-size: cover;
+    color: white;
+}
+
+.acces_services h2{
+    font-size: 55px;
+}
+
+.acces_services p{
+    font-size: 20px;
+    padding-top: 45px;
+}
+
+.acces_services p a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+
+.acces_services p a:hover{
+    border-bottom: 2px solid blue;
+}
+
+.acces_services button{
+    padding: 20px 60px;
+    margin-top: 32px;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 16px;
+    color: white;
+}
+
+.acces_services button:hover{
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+}
+
 /* ================media=================== */
 
 @media screen and (max-width:1200px){
 
-    .site_misson{
-        height: 732.6px;
-    }
-
-    .site_misson .container{
-        width: 940px;
-        height: 612.6px;
-    }
+    
 
 }
 
@@ -315,7 +354,7 @@ header .links .fa-bars {
     }
 
     .site_misson .container{
-        width: 800px;
+        width: 650px;
         height: 691px;
     }
 
@@ -333,12 +372,16 @@ header .links .fa-bars {
         flex-direction: column;
     }
 
+    .acces_services{
+        padding: 100px 3%;
+    }
+
 }
 
 @media screen and (max-width:617px){
 
-    .site_misson > .container{
-        width: auto;
+    .site_misson .container{
+        width: 400px;
     }
 
 }
@@ -373,7 +416,7 @@ header .links .fa-bars {
     .section_2 h2{
         font-size: 30px;
     }
-    
+
 }
 
 @media screen and (max-width:551px){
