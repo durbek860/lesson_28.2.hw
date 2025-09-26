@@ -306,7 +306,6 @@ header .fa-bars {
 
 .clearfix{
     width: 100%;
-    height: 973px;
     padding: 100px 15%;
     background-color: #F2F2F2;
 }
@@ -326,11 +325,12 @@ header .fa-bars {
     display: flex;
     gap: 15px;
     margin-top: 30px;
+    display: flex;
 }
 
 .clearfix .parts .part{
     width: 580px;
-    height: 561.6px;
+    height: 425px;
 }
 
 .part div{
@@ -344,6 +344,116 @@ header .fa-bars {
 .part p{
     font-size: 16px;
     padding-top: 20px;
+}
+
+.command_palette{
+    width: 100%;
+    height: 572px;
+    display: flex;
+    padding-left: 15%;
+}
+
+.command_palette .valighn_top{
+    width: 546px;
+    height: 572px;
+    padding: 30px 40px;
+}
+
+.command_palette .valighn_top h2{
+    font-size: 48px;
+}
+
+.command_palette .valighn_top .link_2{
+    font-size: 16px;
+    color: #999999;
+    padding-top: 20px;
+}
+
+.command_palette .valighn_top .link_2 a{
+    color: #999999;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+}
+
+.command_palette .valighn_top p{
+    font-size: 24px;
+    padding-top: 30px;
+}
+
+.command_palette .valighn_top .repeater{
+    margin-top: 40px;
+}
+
+.command_palette .valighn_top img{
+    width: 180px;
+    height: 55px;
+}
+
+.command_palette .valighn_top_img{
+    width: 764px;
+    height: 572px;
+    background-image: url(./blur-portrait-male-carpenter-showing-4.jpg);
+    background-size: cover;
+}
+
+.contact_us{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #292D33;
+}
+
+.contact_us .container_valighn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.contact_us .container_valighn .valighn_div{
+    width: 380px;
+    height: 374px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.valighn_div img{
+    width: 64px;
+    height: 64px;
+}
+
+.valighn_div h4{
+    font-size: 30px;
+}
+
+.valighn_div p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.valighn_div input{
+    padding: 20px 24px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.valighn_div button{
+    padding: 20px 24px;
+    font-size: 16px;
+    background-color: #FFCA01;
+    border: none;
+    width: 100%;
 }
 
 
@@ -371,9 +481,32 @@ header .fa-bars {
     }
 }
 
+@media screen and (max-width:1000px){
+    .clearfix .parts{
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width:962px) {
     .acces_services h2 {
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width:840px){
+    .clearfix h2{
+        font-size: 30px;
+    }
+
+    .clearfix p{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width:810px){
+    .clearfix{
+        padding: 100px 5%;
     }
 }
 
@@ -423,6 +556,20 @@ header .fa-bars {
     }
 }
 
+@media screen and (max-width:636px){
+    .part h5{
+        font-size: 18px;
+    }
+
+    .part p{
+        font-size: 14px;
+    }
+
+    .clearfix .parts .part{
+        width: 400px;
+    }
+
+}
 
 @media screen and (max-width:551px) {
     header .links {
@@ -452,5 +599,11 @@ header .fa-bars {
         padding: 10px 28px;
         margin-top: 35px;
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width:426px){
+    .clearfix .parts .part{
+        width: 300px;
     }
 }
